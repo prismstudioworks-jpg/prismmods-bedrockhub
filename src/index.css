@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+/* Minecraft font style */
+.font-minecraft, 
+body.font-minecraft,
+body.font-minecraft input,
+body.font-minecraft button,
+body.font-minecraft select,
+body.font-minecraft textarea {
+  font-family: 'Silkscreen', 'Press Start 2P', monospace, sans-serif !important;
+  letter-spacing: 0.015em;
+}
+
+/* Basic style font */
+.font-basic,
+body.font-basic {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif !important;
+}
+
+html.light body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+html.dark body {
+  background-color: #020617;
+  color: #f8fafc;
+}
+
+/* Smooth theme transitions */
+body {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}

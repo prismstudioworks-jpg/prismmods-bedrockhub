@@ -1,0 +1,6 @@
+{
+  "name": "PrismMods - Minecraft Bedrock Hub",
+  "description": "Showcase and explore Minecraft Bedrock addons, texture packs, maps, and shaders created by the owner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
