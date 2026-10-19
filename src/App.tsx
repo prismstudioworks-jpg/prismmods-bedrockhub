@@ -40,7 +40,7 @@ import {
   Palette, Map as MapIcon, Cpu, Bookmark, 
   Layers, HardDrive, Shield, Check, Info, ArrowUpDown, RefreshCw, Download 
 } from 'lucide-react';
-import AiImageUploader from './AiUploader';
+
 export default function App() {
   // Addons & Preferences
   const [addons, setAddons] = useState<BedrockAddon[]>([]);
@@ -531,7 +531,7 @@ export default function App() {
             <p className={`text-xs sm:text-sm leading-relaxed ${themeMode === 'light' ? 'text-slate-600' : 'text-slate-300'}`}>
               Safe, direct download mirrors for custom entities, adventure worlds (.mcworld), deferred lighting shaders, and 64x texture packs.
             </p>
-            <AiImageUploader />
+            
             <div className="pt-2 flex flex-wrap items-center gap-3">
               {effectiveCanAddAddons && (
                 <button
